@@ -9,13 +9,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
   
-  <title>Clipboard landing page</title>
+  <script src="https://kit.fontawesome.com/8bf850953a.js" crossorigin="anonymous"></script>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Clipboard landing page</title>  
 </head>
 
 <body>
@@ -25,19 +21,21 @@
   </header>
   
   <main>
-    <h1>A history of everything you copy</h1>
-    <p>Clipboard allows you to track and organize everything you 
-      copy. Instantly <p> access your clipboard on all your devices.</p>
-    </p>
-    <div class="download">
-      <button class="ios">Download for iOS</button>
-      <button class="mac">Download for Mac</button>
-    </div>
-    <h1>Keep track of your snippets</h1>
-    <p>Clipboard instantly stores any item you copy in the cloud, 
-      meaning you can access <p> your snippets immediately on all your 
-      devices. Our Mac and iOS apps will help you <p> organize everything.
-    </p>
+    <section class="top">
+      <h1>A history of everything you copy</h1>
+      <p>Clipboard allows you to track and organize everything you 
+        copy. Instantly <p> access your clipboard on all your devices.</p>
+      <div class="download">
+        <button class="ios">Download for iOS</button>
+        <button class="mac">Download for Mac</button>
+      </div>
+      <h1>Keep track of your snippets</h1>
+      <p>Clipboard instantly stores any item you copy in the cloud, 
+        meaning you can access your snippets immediately on all your 
+        devices. Our Mac and iOS apps will help you organize everything.
+      </p>
+    </section>
+    
     <div class="comp">
       <img src="./images/image-computer.png" alt="computer">
       <div class="info_comp">
@@ -59,17 +57,17 @@
       <div class="list">
         <img src="./images/icon-blacklist.svg" alt="list">
         <h3>Create blacklists</h3>
-        <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p> 
+        <p>Ensure sensitive information never makes its <br> way to your clipboard by excluding certain <br> sources.</p> 
       </div>
-      <div class="text">
+      <div class="list">
         <img src="./images/icon-text.svg" alt="text_logo">
         <h3>Plain text snippets</h3>
-        <p>Remove unwanted formatting from copied text for a consistent look.</p>   
+        <p>Remove unwanted formatting from copied text <br> for a consistent look.</p>   
       </div>
-      <div class="preview">
+      <div class="list">
         <img src="./images/icon-preview.svg" alt="preview_logo">
         <h3>Sneak preview</h3>
-        <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+        <p>Quick preview of all snippets on your Clipboard <br> for easy access.</p>
       </div>
     </div>
     <div class="icons_empresas">
@@ -89,20 +87,20 @@
   </main>
 
   <footer>
-    <img src="./images/logo.svg" alt="logo_clipboard">
+    <img class="logo" src="./images/logo.svg" alt="logo_clipboard">
 
     <div class="links">
       <a href="#">FAQs</a>
-      <a href="#">Contact Uss</a>
       <a href="#"> Privacy Policy</a>
-      <a href="#">Press Kit</a>
       <a href="#">Install Guide</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Press Kit</a>
     </div>
 
     <div class="social">
-      <img src="./images/icon-facebook.svg" alt="logo_facebook">
-      <img src="./images/icon-twitter.svg" alt="logo_twitter">
-      <img src="./images/icon-instagram.svg" alt="logo_instagram">
+      <i class="fab fa-facebook-square"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
     </div>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 

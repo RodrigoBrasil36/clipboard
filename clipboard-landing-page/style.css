@@ -10,7 +10,7 @@ html,body{
 body{
     font-family: 'Bai Jamjuree', sans-serif;
 }
-h1{
+h1,h3{
     color:hsl(210, 10%, 33%);
 }
 p{
@@ -34,6 +34,18 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0rem 20rem;
+
+}
+.top h1:first-child{
+    font-size: 35px;
 }
 button{
     margin-top: 40px;
@@ -59,4 +71,98 @@ button.mac{
 }
 .comp img{
     margin-left: -35px;
+}
+.info_comp{
+    padding: 0rem 9rem;
+
+}
+.info_comp h3:first-child{
+    margin-top: 0;
+}
+.info_comp h3{
+    margin-top: 3rem;
+}
+.info_comp p{
+    margin-top: 0.7rem;
+    line-height: 1.7rem;
+}
+.fixes{
+    padding: 6rem 0rem;
+    display: flex;
+    align-items: center;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 1.5rem;
+}
+.list p{
+    margin-top: 20px;
+    line-height: 30px;
+}
+.icons_empresas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons_empresas img{
+    padding: 4rem 2.7rem;
+}
+
+/*Footer*/
+footer{
+    height: 140px;
+
+    background: hsl(201, 11%, 95%);
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 9rem;
+
+    margin-top: 9rem;
+}
+footer .logo{
+    height: 50px;
+}
+.links{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    line-height: 30px;
+    margin-left: -300px;
+}
+
+.links a{
+    padding-left: 50px;
+    
+    color: hsl(201, 11%, 52%);
+    font-weight: 500;
+    text-decoration: none;
+}
+.links a:hover{
+    color:hsl(171, 66%, 44%);
+}
+.social{
+    color: hsl(201, 11%, 36%);
+    display: flex;
+    justify-content: space-between;
+
+    width: 100px;
+    font-size: 24px;
+}
+.social i:hover{
+    color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+.attribution {
+    display: flex;
+    position: absolute;
+    margin-top: 100px;
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(171, 66%, 44%);
 }

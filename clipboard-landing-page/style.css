@@ -13,9 +13,14 @@ body{
 h1,h3{
     color:hsl(210, 10%, 33%);
 }
+h1{
+    margin-top: 8rem;
+    font-size: 35px;
+}
 p{
     color: hsl(201, 11%, 66%);
     margin-top: 20px;
+    line-height: 30px;
 }
 header{
     background: url("./images/bg-header-desktop.png")no-repeat;
@@ -46,12 +51,14 @@ main{
 
 }
 .top h1:first-child{
-    font-size: 35px;
+    font-size: 40px;
+    margin-top: -3rem;
 }
 button{
     margin-top: 40px;
-    height: 40px;
-    width: 160px;
+    margin-bottom: 2rem;
+    height: 45px;
+    width: 180px;
 
     font-weight: 600;
     color: white;
@@ -94,10 +101,14 @@ button.mac:hover{
 }
 .info_comp p{
     margin-top: 0.7rem;
-    line-height: 1.7rem;
+    
+}
+.devices{
+    margin-top: 6rem;
+    margin-bottom: -2rem;
 }
 .fixes{
-    padding: 6rem 0rem;
+    padding: 5rem 0rem;
     display: flex;
     align-items: center;
 }
@@ -111,7 +122,7 @@ button.mac:hover{
 }
 .list p{
     margin-top: 20px;
-    line-height: 30px;
+    
 }
 .icons_empresas{
     display: flex;

@@ -182,9 +182,6 @@ footer .logo{
     text-decoration: none;
 }
 @media(max-width:1050px){
-    header{
-        width: 1050px;
-    }
     .info_comp{
         padding: 0rem 0rem 0 1rem;
     
@@ -192,9 +189,15 @@ footer .logo{
     .comp img{
         width: 620px;
     }
+    img.devices {
+        width: 850px;
+    }
+    .icons_empresas img{
+        padding: 4rem 1rem;
+    }
     footer{
-        width: 100%;
-        padding: 0rem 0rem;
+    
+        padding: 0rem 2rem;
     }
 
 }
@@ -211,5 +214,8 @@ footer .logo{
     }
     .icons_empresas{
         flex-direction: column;
+    }
+    img.devices {
+        width: 500px;
     }
 }

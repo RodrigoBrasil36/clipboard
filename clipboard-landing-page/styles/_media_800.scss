@@ -1,0 +1,61 @@
+@media(max-width:800px){
+    body{
+        text-align: center;
+        
+        header{
+            background: url("../images/bg-header-mobile.png")no-repeat;
+            background-size: 100%;
+        }
+    }
+    
+    .comp{
+        flex-direction: column;
+        
+        img{
+            margin-left: 0px;
+            width: 31.25rem;
+        }
+
+        .info_comp{
+            margin-top: 4rem;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+            h3{
+                font-size: 25px;
+                font-weight: 700;
+            }
+        }
+    
+    }
+    
+    .fixes{
+        flex-direction: column;
+    
+        .list{
+            padding-top: 30px;
+        }
+    }
+
+    .icons_empresas{
+        flex-direction: column;
+
+        img{
+            padding: 2.5rem 0rem;
+        }
+    }
+    
+    img.devices {
+        width: 31.25rem;
+    }
+    .links {
+        
+        a{
+            padding-left: 10px;
+        }
+    }
+    footer{
+        padding: 0rem 0rem;
+    }
+}

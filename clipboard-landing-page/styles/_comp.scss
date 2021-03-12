@@ -1,0 +1,25 @@
+.comp{
+    margin-top: 6.25rem;
+    display: flex;
+    align-items: center;
+
+    img{
+        margin-left: -2.18rem;
+    }
+
+    .info_comp{
+        padding: 0rem 9rem;
+    
+        h3{
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: 3rem;
+            margin-bottom: 0.8rem;
+    
+            &:first-child{
+                margin-top: 0;
+            }
+        }
+    
+    }
+}

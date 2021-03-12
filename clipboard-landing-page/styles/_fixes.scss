@@ -1,0 +1,14 @@
+.fixes{
+    padding: 5rem 0rem;
+    display: flex;
+    align-items: center;
+
+    .list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        margin-left: 1.5rem;
+    }
+}
